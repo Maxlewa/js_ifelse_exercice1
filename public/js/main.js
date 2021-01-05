@@ -78,30 +78,42 @@
 
 // 7
 
-nb1 = prompt("Valeur de x ?")
-nb2 = prompt("Valeur de x ?")
-nb3 = prompt("Valeur de x ?")
-let grandsNombres = []
-let petitsNombres = []
+// nb1 = prompt("Valeur de x ?")
+// nb2 = prompt("Valeur de x ?")
+// nb3 = prompt("Valeur de x ?")
+// let grandsNombres = []
+// let petitsNombres = []
 
-if (nb1 >= 12) {
-    grandsNombres.push(nb1);
-} else if (nb1 < 12) {
-    petitsNombres.push(nb1);
-}
-if (nb2 >= 12) {
-    grandsNombres.push(nb2);
-} else if (nb2 < 12) {
-    petitsNombres.push(nb2);
-}
-if (nb3 >= 12) {
-    grandsNombres.push(nb3);
-} else if (nb3 < 12) {
-    petitsNombres.push(nb3);
-}
+// if (nb1 >= 12) {
+//     grandsNombres.push(nb1);
+// } else if (nb1 < 12) {
+//     petitsNombres.push(nb1);
+// }
+// if (nb2 >= 12) {
+//     grandsNombres.push(nb2);
+// } else if (nb2 < 12) {
+//     petitsNombres.push(nb2);
+// }
+// if (nb3 >= 12) {
+//     grandsNombres.push(nb3);
+// } else if (nb3 < 12) {
+//     petitsNombres.push(nb3);
+// }
 
-alert(`Plus grand ou égal à 12 : ${grandsNombres} ; plus petit que 12 : ${petitsNombres}`);
+// alert(`Plus grand ou égal à 12 : ${grandsNombres} ; plus petit que 12 : ${petitsNombres}`);
 
 // 8
 
+let jour = prompt("Jour de la semaine ?")
 
+if (jour == 'lundi' || jour == 'mardi' || jour == 'mercredi') {
+    console.log("Tu es en e-learning");
+}
+
+else if (jour == 'jeudi' || jour == 'vendredi') {
+    console.log("Tu es présentiel"); 
+} 
+
+else {
+    console.log("Demande erronée");
+}
