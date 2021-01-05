@@ -60,13 +60,48 @@
 //     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tabComplet}`)
 // }
 
-let tab = ["pâtes"]
+// let tab = ["pâtes"]
 
-if (tab.length < 3) {
-    tab.push(prompt("Un ingrédient ?"));
-    tab.push(prompt("Un ingrédient supplémentaire ?"));
-} else (tab.length == 3)
-    alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tab}`)
+// if (tab.length < 3) {
+//     tab.push(prompt("Un ingrédient ?"));
+//     tab.push(prompt("Un ingrédient supplémentaire ?"));
+// } 
 
-console.log(tab);
+// if (tab.length == 3) {
+//     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tab}`)
+// }
+
+// console.log(tab);
+
+// 7
+
+nb1 = prompt("Valeur de x ?")
+nb2 = prompt("Valeur de x ?")
+nb3 = prompt("Valeur de x ?")
+let grandsNombres = []
+let petitsNombres = []
+
+if (nb1 >= 12) {
+    grandsNombres.push(nb1);
+} else if (nb1 < 12) {
+    petitsNombres.push(nb1);
+}
+if (nb2 >= 12) {
+    grandsNombres.push(nb2);
+} else if (nb2 < 12) {
+    petitsNombres.push(nb2);
+}
+if (nb3 >= 12) {
+    grandsNombres.push(nb3);
+} else if (nb3 < 12) {
+    petitsNombres.push(nb3);
+}
+
+alert(`Grands nombres : ${grandsNombres} ; et petits nombres ${petitsNombres}`);
+
+// console.log(grandsNombres);
+// console.log(petitsNombres);
+
+// 8
+
 
