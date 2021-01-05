@@ -1,24 +1,18 @@
-// 1
+// // 1
 
-// let un = 1
+// console.log(`1 == "1" = ${1 == '1'}`);
+// console.log(`1 == "1" = ${1 == 1}`);
 
-// if (un = 1) {
-//     console.log("if");
-// } else {
-//     console.log("else");
-// }
+// // 2
 
-// 2
+// console.log(`1 === "1" = ${1 === '1'}`);
+// console.log(`1 === "1" = ${1 === 1}`);
 
-// if (un == 1) {
-//     console.log("if");
-// } else {
-//     console.log("else");
-// }
 
 // 3
 
 // let prenom = prompt("Prénom ?")
+// console.log(prenom.length);
 
 // if (prenom.length > 5) {
 //     alert(`Hello ${prenom} !`);
@@ -44,32 +38,41 @@
 //     alert(`Bravo ! La réponse était bien ${multiplication} :)`);
 // } else if (multiplication !== 9) {
 //     parseInt(multiplication)
-//     alert(`Zut, tu étais à ${Math.abs(9 - multiplication)} unités de la réponse juste`);
+//     alert(`Zut, tu étais à ${Math.abs(multiplication - 9)} unités de la réponse juste`);
 // }
 
 // 6
 
-// let tab = ["pâtes"]
-// let six = prompt("Ajoute un ingrédient stp bg :")
-// let addElement = tab.push(six)
-// let tabComplet = tab + addElement
+// let tab = []
+// let ask
 
-// if (tab.length < 3) {
-//     addElement = prompt("Encore un ingrédient stp ? :")
-// } else if (tab.length == 3) {
-//     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tabComplet}`)
-// }
-
-// let tab = ["pâtes"]
-
-// if (tab.length < 3) {
-//     tab.push(prompt("Un ingrédient ?"));
-//     tab.push(prompt("Un ingrédient supplémentaire ?"));
+// if (tab.length == 3) {
+//     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tab}`)
+// } else {
+//     ask = prompt("Un ingrédient ?");
+//     tab.push(ask);
 // } 
 
 // if (tab.length == 3) {
 //     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tab}`)
-// }
+// } else {
+//     ask = prompt("Un ingrédient ?");
+//     tab.push(ask);
+// } 
+
+// if (tab.length == 3) {
+//     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tab}`)
+// } else {
+//     ask = prompt("Un ingrédient ?");
+//     tab.push(ask);
+// } 
+
+// if (tab.length == 3) {
+//     alert(`Miam, merci ! J'ai maintenant une sacrée liste : ${tab}`)
+// } else {
+//     ask = prompt("Un ingrédient ?");
+//     tab.push(ask);
+// } 
 
 // console.log(tab);
 
@@ -97,10 +100,7 @@ if (nb3 >= 12) {
     petitsNombres.push(nb3);
 }
 
-alert(`Grands nombres : ${grandsNombres} ; et petits nombres ${petitsNombres}`);
-
-// console.log(grandsNombres);
-// console.log(petitsNombres);
+alert(`Plus grand ou égal à 12 : ${grandsNombres} ; plus petit que 12 : ${petitsNombres}`);
 
 // 8
 
